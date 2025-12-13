@@ -1,30 +1,24 @@
-import React from 'react'
-import Card from "./Card.jsx";
-import theme_pattern from "../../assets/theme_pattern.svg"
+import React from "react";
+import Card from "./Card";
+import { servicesData } from "../../data/servicesData";
 
 export default function Services() {
   return (
-    <div className='flex flex-col mt-6 gap-26 mt-36'>
-         <div className="relative inline-block mx-auto">
-          <h1 className="text-white text-6xl font-bold">My Services</h1>
-            <div     className=" h-14 absolute left-1/2 -translate-x-[20%] bottom-[-10px] w-[320px] z-0 pointer-events-none">
-              <img
-            src={theme_pattern}
-            alt=""/></div>
-            </div>
+    <section className="mt-20">
+      <h1 className="text-white text-5xl font-bold mb-12 text-center">
+        My Services
+      </h1>
 
-    <div className='flex flex-col gap-8'>
-          <div className='flex justify-between items-center'>
-    <Card></Card>
-     <Card></Card>
-      <Card></Card>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        {servicesData.map((service) => (
+          <Card
+            key={service.id}
+            id={service.id}
+            title={service.title}
+            full={service.full}
+          />
+        ))}
       </div>
-         <div className='flex justify-between items-center'>
-    <Card></Card>
-     <Card></Card>
-      <Card></Card>
-      </div>
-    </div>
-    </div>
-  )
+    </section>
+  );
 }

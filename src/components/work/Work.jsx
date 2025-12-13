@@ -5,14 +5,14 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
 export default function Work() {
   return (
-    <div className='flex flex-col mt-6 gap-26 mt-36'>
-            <div className="relative inline-block mx-auto">
-             <h1 className="text-white text-6xl font-bold">My Latest Work</h1>
-               <div     className=" h-14 absolute left-1/2 -translate-x-[20%] bottom-[-10px] w-[320px] z-0 pointer-events-none">
-                 <img
-               src={theme_pattern}
-               alt=""/></div>
-               </div>
+    <div id='work' className='flex flex-col mt-6 gap-26 mt-36'>
+              <div className="text-center relative inline-block">
+                <img
+                  src={theme_pattern}
+                      alt=""
+                    className="items-center absolute left-149 -bottom-3 w-42 h-16 -z-0"/> 
+                    <h1 className="relative z-10 text-white text-6xl font-semibold">My latest work</h1>
+                           </div>
    
        <div className='flex flex-col gap-8'>
              <div className='flex justify-between items-center'>
