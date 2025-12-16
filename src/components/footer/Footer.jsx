@@ -24,8 +24,7 @@ export default function Footer() {
           </div>
 
           <p className="text-white text-sm sm:text-lg leading-tight">
-            I am a frontend developer from USA with 10 years of experience in
-            companies like Microsoft, Tesla and Apple.
+         I am a web developer from India with experience gained through academic projects and continuous hands-on practice.
           </p>
         </div>
 
