@@ -7,7 +7,8 @@ export default function Work_card({ image }) {
       hover:-translate-y-3 hover:scale-105 
       hover:border-pink-500 hover:bg-gray-500 hover:border-[3px]
       cursor-pointer flex flex-col 
-      h-[280px] w-[300px] 
+      w-full max-w-[300px] 
+      h-[240px] sm:h-[260px] md:h-[280px]
       border border-white rounded-2xl bg-amber-400"
     >
       <img
