@@ -30,7 +30,7 @@ export default function Hero() {
         <span className="bg-gradient-to-r from-fuchsia-600 to-orange-400 bg-clip-text text-transparent">
           I'm Khushboo Singh,
         </span>{" "}
-        frontend <br />
+        web <br />
         developer based in India.
       </h1>
 
@@ -40,7 +40,7 @@ export default function Hero() {
         text-base sm:text-lg md:text-xl 
         max-w-xl md:max-w-3xl"
       >
-        I am a frontend developer from Ghaziabad, India with 3 years of
+        I am a web developer from Ghaziabad, India with 3 years of
         experience, passionate about building responsive and user-friendly web
         applications.
       </p>

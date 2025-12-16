@@ -16,7 +16,7 @@ export default function Footer() {
             <img
               src={theme_pattern}
               alt=""
-              className="absolute left-20 -bottom-4 w-20 -z-0 hidden sm:block"
+              className="absolute left-21 bottom-0 w-20 -z-0 hidden sm:block"
             />
             <h1 className="relative z-10 text-white text-3xl sm:text-4xl font-semibold">
               Khushboo
